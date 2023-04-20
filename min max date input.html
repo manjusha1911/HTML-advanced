@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Date Field Restrictions</h1>
+        <p>Use the min and max attributes to add restrictions to dates:</p>
+        <form action="footer.html">
+            <label for="mindate">Enter a date after 2000-01-01: </label>
+            <input type="date" id="mindate" min="2000-01-01" name="mindate" value="mindate"><br>
+            <label for="maxdate">Enter a date before 1980-01-01</label>
+            <input type="date" id="maxdate" max="1980-01-01" name="maxdate" value="maxdate"><br><br>
+            <input type="submit">
+        </form>
+        <p><strong>Note:</strong>type="date" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+    </body>
+</html>
